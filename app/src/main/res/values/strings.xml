@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Astrology</string>
+    <string name="aboutAstrology">Астрология - это знание или группа предсказательных и описательных практик, которые занимаются изучением влияния планет на всё живое, на нас, на различные явления, события...</string>
+    <string name="txtDate">Введите число</string>
+    <string name="txtMonth">Введите месяц</string>
+    <string name="btnLearn">Узнать</string>
+    <string name="txtWhoYou">Узнать свой знак зодиака </string>
+    <string name="txtNatalChart">Ваша натальная карта</string>
+    <string name="txtKnowCom">Узнать совместимость</string>
+    <string name="txtKnow">Узнать о знаке</string>
+    <string name="cancel">Назад</string>
+    <string name="btnAbout">О знаке</string>
+    <string name="btnFind">Узнать свой знак</string>
+    <string name="txtTitle">Выбери свой знак зодиака</string>
+    <string name="txtCompatibility">Введите знаки зодиака</string>
+    <string name="txtNote">Пишите без пробелов</string>
+</resources>

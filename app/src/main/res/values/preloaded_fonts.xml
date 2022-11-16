@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/calligraffitti</item>
+        <item>@font/cedarville_cursive</item>
+        <item>@font/covered_by_your_grace</item>
+        <item>@font/great_vibes</item>
+        <item>@font/la_belle_aurore</item>
+        <item>@font/monsieur_la_doulaise</item>
+        <item>@font/tangerine_bold</item>
+    </array>
+</resources>

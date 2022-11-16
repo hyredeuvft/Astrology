@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/TitleConstr"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="366dp"
+        android:layout_height="733dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/Title"
+            android:layout_width="255dp"
+            android:layout_height="71dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="346dp"
+            android:layout_height="514dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/forrectangle"
+            android:backgroundTint="@color/darkOrchid"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/AboutAstrology"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/aboutAstrology"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/black"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/natalChart"
+                android:layout_width="122dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/forrectangle"
+                android:text="@string/btnFind"
+                android:textSize="11dp"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/aboutZodiacSigns"
+                android:layout_width="122dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/forrectangle"
+                android:text="@string/btnAbout"
+                android:textSize="11dp"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/compatibility"
+                android:layout_width="122dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/forrectangle"
+                android:text="@string/txtKnowCom"
+                android:textSize="11dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
